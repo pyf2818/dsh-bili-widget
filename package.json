@@ -1,0 +1,28 @@
+{
+  "name": "@dsh-external/dsh-bili-widget",
+  "description": "B站悬浮看片小窗：推荐/热门/排行/精选/AI、搜索、历史、自动播/续播重播、迷你专注、缩放拖动。",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ]
+}

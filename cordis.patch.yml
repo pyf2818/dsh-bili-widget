@@ -1,0 +1,4 @@
+# dsh-bili-widget bundle patch: inserts its public dsh.client entry into the web plugin roster.
+- insert:
+    - id: bili-widget
+      name: '@dsh-external/dsh-bili-widget'
