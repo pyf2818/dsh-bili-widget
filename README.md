@@ -13,26 +13,15 @@
 
 ## 安装
 
-### 方式一：link 本地开发
+直接在 DSH 里说：
 
-在你的 DSH profile 的 `package.json` 中添加：
+> 请安装 https://github.com/pyf2818/dsh-bili-widget 这个插件
 
-```json
-{
-  "dependencies": {
-    "@dsh-external/dsh-bili-widget": "link:../dsh-bili-widget"
-  },
-  "dsh": {
-    "profile": {
-      "bundles": [
-        "@dsh-external/dsh-bili-widget"
-      ]
-    }
-  }
-}
-```
+DSH 会自动完成安装，重启后即可使用。
 
-### 方式二：GitHub 安装
+### 手动安装
+
+如果自动安装失败，在你的 DSH profile 的 `package.json` 中添加：
 
 ```json
 {
@@ -48,6 +37,8 @@
   }
 }
 ```
+
+然后重启 DSH。
 
 ## 环境要求
 
