@@ -1,7 +1,7 @@
 {
   "name": "@dsh-external/dsh-bili-widget",
-  "description": "B站悬浮看片小窗：推荐/热门/排行/精选/AI、搜索、历史、自动播/续播重播、迷你专注、缩放拖动。",
-  "version": "0.0.1",
+  "description": "B站悬浮看片小窗：推荐/热门/排行/精选/关注/AI、搜索、历史持久化、自动连播、迷你专注模式、窗口最小化。",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "main": "lib/index.js",
@@ -19,6 +19,14 @@
       "platform": "web"
     }
   },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "bilibili",
+    "video",
+    "floating-widget",
+    "deepseek-harness"
+  ],
   "license": "MIT",
   "files": [
     "lib/index.js",
